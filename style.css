@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding: 0;
+  font-weight: bold;
+  box-sizing: border-box;
+  background-color: fffgrey;
+  font-family:sans-serif;
+}
+#logo{
+  padding:20px 10px 10px 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  width: px;
+  padding: 0;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #194737;
+}
+
+li {
+  float: left;
+}
+li a {
+  position: relative;
+  width: 202px;
+  height: 52px;
+  display: inline-block;
+  color: rgb(254, 8, 8);
+  text-align: right;
+  padding: 14px 16px;
+  border-bottom: 1px solid rgb(4, 134, 60);
+  text-align: center;
+  text-decoration: rgb(0, 42, 255);
+}
+li a:hover {
+  background-color: #00f389;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+    column-gap: 30px;
+}
+.form{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+    color: #7677ca;
+    background-color: fffgrey;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.field button:hover{
+    background-color:#044c9a;
+}
+
